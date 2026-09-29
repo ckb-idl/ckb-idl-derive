@@ -2,6 +2,10 @@
 name = "ckb-idl-export"
 version = "0.1.0"
 edition = "2024"
+description = "Host-side canonical IDL exporter for CKB witness schemas"
+license = "MIT"
+repository = "https://github.com/ckb-idl/ckb-idl-derive"
+readme = "README.md"
 
 [dependencies]
 ckb-idl-types = { path = "../ckb-idl-types" }
@@ -10,6 +14,6 @@ serde_json_canonicalizer = "0.3.2"
 
 [dev-dependencies]
 ckb-idl-derive = { path = ".." }
-ckb-idl-types = { path = "../ckb-idl-types", features = ["ckb-contract"] }
+ckb-idl-types = { version = "0.1.0", path = "../ckb-idl-types", features = ["ckb-contract"] }
 ckb-std = "1.1"
 tempfile = "3"
