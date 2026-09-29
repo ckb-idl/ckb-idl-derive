@@ -5,6 +5,10 @@ members = [".", "ckb-idl-types", "ckb-idl-export"]
 name = "ckb-idl-derive"
 version = "0.1.0"
 edition = "2024"
+description = "Rust derives for CKB IDL witness schemas and decoding"
+license = "MIT"
+repository = "https://github.com/ckb-idl/ckb-idl-derive"
+readme = "README.md"
 
 [lib]
 proc-macro = true

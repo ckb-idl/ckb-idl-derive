@@ -2,6 +2,10 @@
 name = "ckb-idl-export"
 version = "0.1.0"
 edition = "2024"
+description = "Host-side canonical IDL exporter for CKB witness schemas"
+license = "MIT"
+repository = "https://github.com/ckb-idl/ckb-idl-derive"
+readme = "README.md"
 
 [dependencies]
 ckb-idl-types = { path = "../ckb-idl-types" }

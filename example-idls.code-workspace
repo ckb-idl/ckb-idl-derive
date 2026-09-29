@@ -17,6 +17,9 @@
 		},
 		{
 			"path": "../ckb-idl-spec"
+		},
+		{
+			"path": "../ckb-idl-cli"
 		}
 	],
 	"settings": {}

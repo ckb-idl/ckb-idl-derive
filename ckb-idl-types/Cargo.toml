@@ -2,6 +2,10 @@
 name = "ckb-idl-types"
 version = "0.1.0"
 edition = "2024"
+description = "Shared runtime schema and witness types for CKB IDL"
+license = "MIT"
+repository = "https://github.com/ckb-idl/ckb-idl-derive"
+readme = "README.md"
 
 [dependencies]
 ckb-std = { version = "1.1", optional = true }
